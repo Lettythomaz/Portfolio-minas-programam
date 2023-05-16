@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.header-menu{
+     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 60px;
+    background-color: #FFB6C1;
+
+}
+
+.header-menu nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+
+}
+
+.lista-menu li>a {
+    font-size:  18px;
+    color: aliceblue;
+    text-decoration: inherit;
+
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: #EAEAEA;
+    ;
+  }
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+  }
+
+    .subcontainer-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+    .nome-completo{
+        font-size: 36px;
+        color: #938Df8;
+        font-weight: 700;
+        height: 45px;
+    }
+
+    .profissao{
+        color: #c5c0c0;
+        height: 60px;
+
+    }
+
+    .texto-sobre{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .article-lista{
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        flex-direction: column;
+    }
+
+    .topico-principal{
+        font-size: 36px;
+        color: #49bfb3; 
+    }
+        
+    
+    
+    .lista-item{
+        padding: 32px;
+
+
+
+    }
+
+    .lista-titulo{
+        margin-bottom: 5px;
+        font-size: 22px;
+        color: #B28282;
+        font-weight: 700;
+        }
+
+     .lista-local{
+        font-size: 18px;
+        color: #2f80ed;
+        
+     }   
+
+     .lista-descricao{
+        font-size: 18px;
+        margin-top: 5px;
+        line-height: 20px;
+        color: #828282;
+        font-weight: 300;
+     }
+
+     .contatos{
+
+     }
+
+     .footer{
+        background-color: #5a53d8;
+        display: flex;
+        align-items: center;
+        height: 30vh;
+        padding-bottom: 40.25px;
+        padding-top: 40.25px;
+
+     }
+
+     .lista-footer{
+        color:#FFF;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 16px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24.5px;
+      
+     }
+
+     .lista footer li {
+        display: flex;
+     }
+
+     .links-footer{
+        color: #FFF;
+        margin-left: 30px;
+     }
+
+    .formacao2{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    }
